@@ -40,7 +40,7 @@ return [
                         [
                             'options' => [
                                 'label' => 'Menu #2',
-                                'route' => ['route_name' => 'home'/*,...*/],
+                                'route' => ['route_name' => 'home'],
                             ],
                             'attributes' => [
                                 'name' => 'Menu #1',

@@ -1,4 +1,4 @@
-## Container providers
+# Container providers
 
 Each menu can be created from different sources. The responsibility of creating a menu container from the source falls on a container provider.
 

@@ -1,4 +1,4 @@
-## Components
+# Components
 
 A menu, or navigation container, is a class implementing the \RecursiveIterator interface. It has a hierarchical structure, with nodes called pages(see the `Page` class) that may have children. It is basically a tree
 
