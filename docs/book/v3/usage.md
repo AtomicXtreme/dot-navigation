@@ -2,7 +2,7 @@
 
 Below is an example with content of `config/autoload/navigation.global.php`.
 
-Here we can change or modify the menu structure that will be rendered in the application we are building. 
+Here we can change or modify the menu structure that will be rendered in the application we are building.
 
 ```php
 <?php
