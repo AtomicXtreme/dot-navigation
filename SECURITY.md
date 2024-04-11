@@ -3,8 +3,8 @@
 ## Supported Versions
 
 
-| Version | Supported          | PHP Version                                 |
-|---------|--------------------|---------------------------------------------|
+| Version | Supported          | PHP Version                                                                                                   |
+|---------|--------------------|---------------------------------------------------------------------------------------------------------------|
 | 3.x     | :white_check_mark: | ![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/dotkernel/dot-navigation/3.4.2)|
 
 
