@@ -13,7 +13,6 @@
 
 [![SymfonyInsight](https://insight.symfony.com/projects/68b7c728-4cc9-40ac-a3be-cf17f9b2eaf1/big.svg)](https://insight.symfony.com/projects/68b7c728-4cc9-40ac-a3be-cf17f9b2eaf1)
 
-
 Allows you to easily define and parse menus inside templates, configuration based approach.
 
 ## Installation
@@ -33,7 +32,6 @@ Register `NavigationMiddleware` in your middleware pipe between the routing and 
 
 Locate dot-navigation's distributable config file `vendor/dotkernel/dot-navigation/config/autoload/navigation.global.php.dist` and duplicate it in your project as `config/autoload/navigation.global.php`
 
-
 ## Components
 
 A menu, or navigation container, is a class implementing the \RecursiveIterator interface. It has a hierarchical structure, with nodes called pages(see the `Page` class) that may have children. It is basically a tree
@@ -48,7 +46,6 @@ Attributes are key value pairs that defines the menu item. They are usually inse
 
 A `NavigationService` class, is the service that handles all defined menu container. It can fetch the container from its provider, check if a page is active or not and get the page's generated URI.
 
-
 ## Container providers
 
 Each menu can be created from different sources. The responsibility of creating a menu container from the source falls on a container provider.
@@ -56,7 +53,6 @@ Each menu can be created from different sources. The responsibility of creating 
 Each provider must implement the interface `ProviderInterface` and be registered in the ProviderPluginManager.
 
 We offer just one provider for now, `ArrayProvider`, that is able to fetch and create a menu container from a php array that is defined in the configuration file.
-
 
 ## NavigationRenderer
 
@@ -66,7 +62,6 @@ The partial method is usually the more flexible one, custom rules can be defined
 
 If you are using twig, there is already a twig extension provided in package dot-twigrenderer, that you can use to easily parse the menus inside your templates
 
-
 When using the partial method, the template will receive as parameters the container, the navigation service and any extra parameters set by the developer.
 
 Navigation containers are referred, when parsed, by their name, as defined in the configuration file.
@@ -74,6 +69,7 @@ Navigation containers are referred, when parsed, by their name, as defined in th
 ## Required page options and attributes
 
 The following are options that each page should define in the configuration
+
 * `label` - the text of the menu item
 * `route` or `uri` - defines the route or link the menu item will have
 * `permission` - can be used optionally, if authorization service is present, in order to omit menu items that are not authorized to visit.
